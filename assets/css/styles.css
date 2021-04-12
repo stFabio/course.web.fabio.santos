@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Poppins:wght@300&display=swap');
 
+body {
+    background-color: #fa7972;
+}
+
 header {
     font-family: 'Poppins', sans-serif;
 }
@@ -13,10 +17,10 @@ section, article {
     font-style: italic;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.mark{
-    background-color: rgb(229, 255, 0);
+.mark {
+    background-color: #A52019;
 }
