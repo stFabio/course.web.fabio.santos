@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Poppins:wght@300&display=swap');
 
 body {
-    background-color: #fa7972;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+header, section, footer {
+    background-color: #fff;
+    margin: 2em 20em 2em 20em;
 }
 
 header {
     font-family: 'Poppins', sans-serif;
+    padding: 1em 9em 1em 9em;
+}
+
+footer {
+    padding: 1.5em;
 }
 
 section, article {
     font-family: 'Lexend', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1em;
+    padding: 2em;
 }
 
 .italic {
@@ -22,5 +33,5 @@ section, article {
 }
 
 .mark {
-    background-color: #A52019;
+    background-color: #fc7068;
 }
