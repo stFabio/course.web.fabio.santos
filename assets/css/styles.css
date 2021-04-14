@@ -2,26 +2,96 @@
 
 body {
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);
-}
-
-header, section, footer {
-    background-color: #fff;
-    margin: 2em 20em 2em 20em;
-}
-
-header {
+    margin: 0em;
     font-family: 'Poppins', sans-serif;
-    padding: 1em 9em 1em 9em;
 }
 
-footer {
+
+nav #menu ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 0;
+    width: 100%;
+    padding: 1.5em 0em;
+    position: relative;
+}
+
+nav #menu ul li {
+    display: inline;
+}
+nav #menu ul li a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    padding: 0.8em 1.8em;
+}
+
+nav #menu ul li a:hover {
+    color: #ff0000;
+    transition: all 0.5s;
+    background-color: #fff;
+}
+
+
+.card-content {
+    background-color: #fff;
+    padding: 2em 3em;
+    margin: 1em 10em 1em 10em;
+}
+
+
+header{
+    padding: 0em 0em 1em 0em
+}
+
+header h1, h2{
+    text-align: center;
+    padding: 1.25em 1.25em 0em 1.25em
+}
+
+.header-trophies {
+    padding: 2em 0em;
+    text-align: center;
+}
+
+.header-trophies img{
+    padding: 0.75em;
+    width: 30em;
+    height: 29em;
+}
+
+.card-content #players {
+    text-align: center;
+}
+
+.player {
     padding: 1.5em;
+    width: 25em;
+    display: inline-block;
 }
 
-section, article {
-    font-family: 'Lexend', sans-serif;
+.player img {
+    padding: 1em;
+    width: 25em;
+    height: 25em;
+}
+
+.player img:hover{
+    transition: all 1s;
+    background-color: #f52626;
+}
+
+.player a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section, article, footer {
     font-size: 1em;
-    padding: 2em;
+    padding: 1em 2em
 }
 
 .italic {
@@ -34,4 +104,12 @@ section, article {
 
 .mark {
     background-color: #fc7068;
+}
+
+#divHeader {
+    font: normal normal 300 0.9em/1em "Poppins";
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+    padding: 20px 40px;
 }

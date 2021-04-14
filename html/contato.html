@@ -9,14 +9,23 @@
 	</head>
 	<body>
 		<header>
-			<article>
-				Para retornar a página inicial, <a href="index.html">clique aqui</a>
-			</article>
-			<h1>Deixe sua sugestão</h1>
+			<nav>
+				<div id="menu">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="titulos.html">Títulos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div id="divHeader">
+				<h1>Deixe sua sugestão</h1>
+			</div>
 		</header>
 		<section>
-			<article>
-				<fieldset>
+			<div class="card-content">
+				<article>
 					<form method="POST">
 						<label for="txtNome">Nome: </label>
 						<input type="text" name="txtNome" id="nome" />
@@ -35,16 +44,18 @@
 						<button type="reset">Limpar</button>
 						<button type="submit">Enviar</button>
 					</form>
-				</fieldset>
-			</article>
+				</article>
+			</div>
 		</section>
-
 		<footer>
-			<article>&copy; Todos os direitos reservados</article>
-			<audio controls autoplay>
-				<source src="../assets/audio/hino-spfc.mp3" type="audio/mp3" />
-				Este browser não possui compatibilidade com áudio.
-			</audio>
+			<div class="card-content">
+				<article>&copy; Todos os direitos reservados</article>
+				<audio controls>
+					<source src="../assets/audio/hino-spfc.mp3" type="audio/mp3" />
+					Este browser não possui compatibilidade com áudio.
+				</audio>
+			</div>
+			
 		</footer>
 	</body>
 </html>
