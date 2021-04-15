@@ -141,33 +141,33 @@ header h1, h2{
     text-align: center;
     width: 100%;
     border: none;
-    border-collapse: collapse;
+    border-collapse: separate;
     border-spacing: 1rem;
     font-size: 1.05rem;
     border-radius: 1rem;
 }
 
 #titulos th {
-    background-color: #f85f5f;
+    background-color: #e44c4c;
     color: #fff;
     padding: 0.8rem;
-
+    border-radius: 3rem;
 }
 
 #titulos tr {
-    background: linear-gradient(90deg, rgba(117,117,117,1) 0%, rgba(136,94,94,1) 25%, rgba(179,64,64,1) 50%, rgba(175,90,90,1) 75%, rgba(117,117,117,1) 100%);
     font-size: 1rem;
 }
 
 #titulos td{
     padding: 0.8rem;
-    color: #fff;
+    color: #000;
 }
 
 #titulos td:hover {
-    background-color: #f7f7f7;
-    color: #000000;
-    transition: all 0.5s;
+    background: linear-gradient(135deg, rgba(158,158,158,1) 3%, rgba(173,68,68,1) 32%, rgba(130,38,38,1) 66%, rgba(43,43,43,1) 97%);
+    color: #fff;
+    transition: all 0.8s;
+    border-radius: 3rem;
 }
 
 
