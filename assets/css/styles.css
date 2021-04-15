@@ -25,14 +25,14 @@ nav #menu ul li a {
     text-decoration: none;
     font-size: large;
     font-weight: bold;
-    color: #fff;
+    color: #f38b8b;
     padding: 0.8rem 1.8rem;
 }
 
 nav #menu ul li a:hover {
-    color: #ff0000;
-    transition: all 0.5s;
-    background-color: #fff;
+    color: #fff;
+    transition: all 0.8s;
+    background: linear-gradient(135deg, rgba(158,158,158,1) 3%, rgba(173,68,68,1) 32%, rgba(130,38,38,1) 66%, rgba(43,43,43,1) 97%);
     border-radius: 10rem;
 }
 
@@ -46,7 +46,7 @@ nav #menu ul li a:hover {
 
 #footer-section {
     margin-top: 5rem;
-    color: #fff;
+    color: #f38b8b;
     background-color: #000000;
     text-align: center;
     padding: 2rem 3rem;
@@ -60,7 +60,7 @@ nav #menu ul li a:hover {
     font-size: 1.5rem;
     padding: 0.5rem;
     text-decoration: none;
-    color: #fff;
+    color:#f38b8b;
 }
 
 #players h2 {
@@ -160,6 +160,7 @@ header h1, h2{
 
 #titulos td{
     padding: 0.8rem;
+    border-radius: 0.5rem;
     color: #000;
 }
 
