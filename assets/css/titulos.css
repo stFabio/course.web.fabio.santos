@@ -1,0 +1,33 @@
+#titulos{
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 1rem;
+    font-size: 1.05rem;
+    border-radius: 1rem;
+}
+
+#titulos th {
+    background-color: var(--color-red-header);
+    color: var(--light);
+    padding: 0.8rem;
+    border-radius: 3rem;
+}
+
+#titulos tr {
+    font-size: 1rem;
+}
+
+#titulos td{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    color: var(--dark);
+}
+
+#titulos td:hover {
+    background: var(--gradient-tricolor-secondary);
+    color: var(--light);
+    transition: all 0.8s;
+    border-radius: 3rem;
+}
